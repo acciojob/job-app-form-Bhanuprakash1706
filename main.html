@@ -9,21 +9,22 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form  action="./index.html" method="get">
-		<label for="name"> Name*</label><input id="name" type="text" required>
-		<br><label for="email"> Email*</label><input id="email" type="email" required>
-		<br><label for="gender"> Gender*</label>
+		<div><label for="name"> Name*</label><input id="name" type="text" required></div>
+		<div><label for="email"> Email*</label><input id="email" type="email" required></div>
+		<div><label for="gender"> Gender*</label>
 		<input id="male" type="radio" required name="gender"> <label for="male">Male</label> 
 		<input id="female" type="radio" required name="gender"> <label for="female">Female</label>
-		<input id="other" type="radio" required name="gender"> <label for="other">Other</label>
-		<br><label for="laptop brands"> Laptop Brands</label>
-		<input id="apple" type="checkbox"><label for="apple">Apple</label>
-		<input id="asus" type="checkbox"><label for="asus">Asus</label>
-		<input id="hp" type="checkbox"><label for="hp">HP</label>
-		<br><label for="age"> Age*</label><input id="age" type="number" required>
-		<br><label for="dob"> DOB*</label> <input id="dob" type="date" required>
-		<br><label for="password"> Password*</label><input id="password" type="password" required>
-		<br><input id="portfolio" type="url">
-		<br><button id="submit button" value="submit">submit button</button>
+		<input id="other" type="radio" required name="gender"> <label for="other">Other</label></div>
+		<div><label for="laptop brands"> Laptop Brands</label>
+		<input id="apple" type="checkbox" name="laptop"><label for="apple">Apple</label>
+		<input id="asus" type="checkbox" name="laptop"><label for="asus">Asus</label>
+		<input id="hp" type="checkbox" name="laptop"><label for="hp">HP</label></div>
+		<div><label for="age"> Age*</label><input id="age" type="number" required></div>
+		<div><label for="dob"> DOB*</label> <input id="dob" type="date" required></div>
+		<div><label for="password"> Password*</label><input id="password" type="password" required></div>
+		<div><input id="portfolio" type="url"></div>
+		<div><button id="submit button" value="submit">submit button</button></div>
+		
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
